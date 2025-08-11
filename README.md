@@ -1,8 +1,3 @@
-# Hazrat Ali
-
-# Software Engineering || Programmer 
-
-
 Code status:
 ------------
 

@@ -1,0 +1,118 @@
+2025-08-11 22:34:12 0 [Note] Starting MariaDB 11.0.4-MariaDB source revision 48af85db217a88409e6aac51bf86e3bf525d8f07 as process 24252
+2025-08-11 22:34:12 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-08-11 22:34:12 0 [Note] InnoDB: Number of transaction pools: 1
+2025-08-11 22:34:12 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2025-08-11 22:34:12 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2025-08-11 22:34:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-08-11 22:34:12 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2025-08-11 22:34:12 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=18006
+2025-08-11 22:34:12 0 [Note] InnoDB: End of log at LSN=309929
+2025-08-11 22:34:12 0 [Note] InnoDB: To recover: 148 pages
+2025-08-11 22:34:12 0 [Note] InnoDB: Opened 3 undo tablespaces
+2025-08-11 22:34:12 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+2025-08-11 22:34:12 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2025-08-11 22:34:12 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2025-08-11 22:34:12 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2025-08-11 22:34:12 0 [Note] InnoDB: log sequence number 309929; transaction id 536
+2025-08-11 22:34:12 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-08-11 22:34:12 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-08-11 22:34:12 0 [Note] InnoDB: Cannot open 'C:\xampp\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2025-08-11 22:34:12 0 [Note] mysqld.exe: SSPI: using principal name 'localhost', mech 'Negotiate'
+2025-08-11 22:34:12 0 [Note] Server socket created on IP: '::'.
+2025-08-11 22:34:12 0 [Note] Server socket created on IP: '0.0.0.0'.
+2025-08-11 22:34:12 0 [ERROR] Incorrect definition of table mysql.event: expected column 'definer' at position 3 to have type varchar(, found type char(141).
+2025-08-11 22:34:12 0 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2025-08-11 22:34:12 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2025-08-11 22:34:12 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '11.0.4-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-08-11 22:36:03 6 [ERROR] InnoDB: Table mysql.innodb_table_stats not found.
+2025-08-11 22:36:03 6 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:36:03 6 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:12 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:12 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:13 7 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:14 8 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:14 8 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:38 0 [Note] Starting MariaDB 11.0.4-MariaDB source revision 48af85db217a88409e6aac51bf86e3bf525d8f07 as process 22016
+2025-08-11 22:37:38 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-08-11 22:37:38 0 [Note] InnoDB: Number of transaction pools: 1
+2025-08-11 22:37:38 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2025-08-11 22:37:38 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2025-08-11 22:37:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-08-11 22:37:38 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2025-08-11 22:37:38 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=18006
+2025-08-11 22:37:38 0 [Note] InnoDB: End of log at LSN=311388
+2025-08-11 22:37:38 0 [Note] InnoDB: To recover: 148 pages
+2025-08-11 22:37:38 0 [Note] InnoDB: Opened 3 undo tablespaces
+2025-08-11 22:37:38 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+2025-08-11 22:37:38 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2025-08-11 22:37:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2025-08-11 22:37:38 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2025-08-11 22:37:38 0 [Note] InnoDB: log sequence number 311388; transaction id 543
+2025-08-11 22:37:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-08-11 22:37:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-08-11 22:37:38 0 [Note] InnoDB: Cannot open 'C:\xampp\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2025-08-11 22:37:38 0 [Note] mysqld.exe: SSPI: using principal name 'localhost', mech 'Negotiate'
+2025-08-11 22:37:38 0 [Note] Server socket created on IP: '::'.
+2025-08-11 22:37:38 0 [Note] Server socket created on IP: '0.0.0.0'.
+2025-08-11 22:37:38 0 [ERROR] Incorrect definition of table mysql.event: expected column 'definer' at position 3 to have type varchar(, found type char(141).
+2025-08-11 22:37:38 0 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2025-08-11 22:37:38 1 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1932: Table 'mysql.gtid_slave_pos' doesn't exist in engine
+2025-08-11 22:37:38 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '11.0.4-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-08-11 22:37:40 4 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:40 4 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:41 6 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:41 6 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:41 8 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:41 8 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:41 10 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:41 10 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:42 14 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:42 14 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] InnoDB: Table mysql.innodb_table_stats not found.
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 16 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:43 18 [Note] Zerofilling moved table:  '.\mysql\proc'
+2025-08-11 22:37:43 18 [ERROR] Incorrect definition of table mysql.proc: expected column 'definer' at position 11 to have type varchar(, found type char(141).
+2025-08-11 22:37:43 18 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:43 18 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:46 20 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:46 20 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:46 20 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:46 20 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:46 20 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:46 20 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
+2025-08-11 22:37:46 22 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'hist_type' at position 9 to have type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB','JSON_HB'), found type enum('SINGLE_PREC_HB','DOUBLE_PREC_HB').
+2025-08-11 22:37:46 22 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'histogram' at position 10 to have type longblob, found type varbinary(255).
